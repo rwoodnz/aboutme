@@ -1,3 +1,29 @@
 body {
   font-family: 'Istok Web', sans-serif;
+  color: #008;
+  background: url('img/photo.jpg');
+
+}
+
+.container {
+  background: #FFF;
+  padding: 0 5%;
+}
+
+#person {
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+#main_image img {
+  max-width: 100%;
+}
+
+#headline {
+  margin: 0 2%;
+}
+
+#headline h1 {
+  margin:0;
+  font-size: 3.4em;
 }
