@@ -2,17 +2,18 @@ body {
   font-family: 'Istok Web', sans-serif;
   color: #008;
   background: url('img/photo.jpg');
-
 }
 
 .container {
   background: #FFF;
-  padding: 0 5%;
+  padding: 0 20% ;
+  min-height: 1200px;
+  margin-bottom: 10%;
 }
 
 #person {
   margin-top: 20%;
-  margin-left: 5%;
+  margin-bottom: 10%
 }
 
 #main_image img {
@@ -26,4 +27,107 @@ body {
 #headline h1 {
   margin:0;
   font-size: 3.4em;
+}
+
+.section {
+  margin-top: 10%;
+}
+
+.section_header h2 {
+  float:left;
+  margin-right: 10%;
+}
+
+.section_header img {
+  max-width: 5%;
+  margin-left:3%;
+  margin-bottom:5%;
+}
+
+#morphoss {
+  height:150px;
+}
+
+#morphoss img {
+  margin-top: 10%;
+  float:left;
+  max-width: 100%
+}
+
+.description {
+  margin-left: 5%;
+  font-size: 90%;
+  margin-bottom: 2%;
+}
+
+#dev_academy {
+  height:150px;
+}
+
+#dev_acacdemy img {
+  margin-top: 10%;
+  float:left;
+  max-width: 100%
+}
+
+#bmwev {
+  height:200px;
+}
+
+#bmwev img {
+  margin-top: 10%;
+  float:left;
+  max-width: 100%
+}
+
+#internetnz {
+  height:230px;
+}
+
+#internetnz img {
+  margin-top: 10%;
+  float:left;
+  max-width: 100%;
+  width:130px;
+}
+
+/* Smaller ----------- */
+@media screen and (max-width : 640px) {
+
+  .grid_1,
+  .grid_2,
+  .grid_3,
+  .grid_4,
+  .grid_5,
+  .grid_6 {
+    width:100%;
+  }
+  
+  #main_image img {
+    max-width: 40%;
+  }
+
+  #morphoss img {
+    max-width: 40%;
+  }
+
+  #devacademy img {
+    max-width: 80%;
+  }
+
+  #internetnz img {
+    max-width: 70%;
+  }
+
+  #bmwev img {
+    max-width: 100%;
+  }
+
+  .description {
+    margin-left: 0%;
+    font-size: 90%;
+    margin-bottom: 2%;
+    width:50%;
+  }
+
 }
